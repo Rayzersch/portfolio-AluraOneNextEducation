@@ -1,0 +1,34 @@
+.footer {
+  background: #211c0e;
+  border: 3px solid #121212;
+  color: var(--color-fuente);
+  font-family: var(--Kdam-Thmor-Pro);
+  font-weight: bold;
+  padding: 1rem;
+}
+
+.footer__parrafo {
+  text-align: center;
+  transition: 0.5s all;
+}
+
+.footer__parrafo:hover {
+  transform: scale(1.2);
+  text-decoration: underline;
+}
+
+.footer__parrafo-link:link {
+  color: var(--color-fuente);
+  text-decoration: none;
+}
+
+.footer__parrafo-link:visited {
+  color: var(--color-fuente);
+  text-decoration: none;
+}
+
+@media screen and (max-width: 480px) {
+  .footer {
+    height: auto;
+  }
+}

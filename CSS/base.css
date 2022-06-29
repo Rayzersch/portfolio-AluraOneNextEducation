@@ -1,0 +1,16 @@
+:root {
+  --Kdam-Thmor-Pro: "Kdam Thmor Pro", sans-serif;
+  --Montserrat: "Montserrat", sans-serif;
+  --background-body: #110b22;
+  --color-fuente: #cccccc;
+}
+
+body {
+  background: var(--background-body);
+}
+
+@media screen and (max-width: 480px) {
+  body {
+    height: auto;
+  }
+}

@@ -1,0 +1,30 @@
+.sobre-mi {
+  background: #211c0e;
+  color: var(--color-fuente);
+  font-family: var(--Montserrat);
+  margin-bottom: 2.5rem;
+  padding: 1rem;
+}
+
+.sobre-mi__titulo {
+  text-decoration: underline;
+  font-size: 40px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.sobre-mi__parrafo {
+  font-size: 25px;
+  text-align: center;
+  margin-top: 1rem;
+  margin-left: 1rem;
+  margin-bottom: 1.5rem;
+  line-height: 3rem;
+}
+
+@media screen and (max-width: 480px) {
+  .sobre-mi__parrafo {
+    font-size: 20px;
+    padding: 1rem;
+  }
+}
